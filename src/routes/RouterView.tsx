@@ -6,7 +6,7 @@ const RouterView = () => {
   return (
     <Routes>
       {routes.map((route) => (
-        <Route key={route.path} element={route.element} />
+        <Route key={route.path} {...route} />
       ))}
     </Routes>
   );
