@@ -4,7 +4,6 @@ import { useRecoilValue, useSetRecoilState } from "recoil";
 import AppBackground from "./components/AppBackground";
 import NavBar from "./components/NavBar/NavBar";
 import RouterView from "./routes/RouterView";
-import appBackgroundState from "./store/appBackgroundState";
 import navbarHeightState from "./store/navbarHeightState";
 import responsiveState from "./store/responsiveState";
 
